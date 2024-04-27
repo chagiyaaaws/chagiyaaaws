@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import ComponentsChagiyaw from './components/componentschagiyaw'
+import ComponentsProfile from './components/componentsprofile'
+import ComponentsCard from './components/componentscard'
+import ComponentsFirst from './components/componentsfirst'
+import ComponentsSlide from './components/componentsslide'
+import ComponenstHope from './components/componensthope'
+import ComponentsFooter from './components/componentsfooter'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<main className="bg-slate-200">
+			<ComponentsChagiyaw />
+			<ComponentsProfile />
+			<ComponentsCard />
+			<ComponentsFirst />
+			<ComponentsSlide />
+			<ComponenstHope />
+			<ComponentsFooter />
+		</main>
+	)
 }
 
-export default App;
+export default App
