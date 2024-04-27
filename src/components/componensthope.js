@@ -5,7 +5,7 @@ const ComponenstHope = () => {
 		<section className="h-screen w-screen px-4 flex flex-col justify-center">
 			<h1 className="text-7xl">"</h1>
 			<p className="pb-4">
-				Di setiap senyum dan pelukan, terdapat harapan-harapan yang membentuk
+				Di setiap senyum, terdapat harapan-harapan yang membentuk
 				cinta kita, meredakan rintangan kehidupan dan memperkuat kasih sayang.
 				Terima kasih Chagiya untuk semua memori indah ketika kita bersama.
 			</p>
